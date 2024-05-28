@@ -209,7 +209,8 @@
     inset-inline-start: -20px;
   }
   .header__description {
-    inline-size: max(364px, 47.4vi);
+    /* inline-size: max(364px, 47.4vi); */
+    inline-size: min(364px, 47.4vi);
   }
   .why,
   .how {
@@ -251,7 +252,8 @@
     flex-direction: row;
   }
   .header__description {
-    inline-size: max(491px, 47.4vi);
+    /* inline-size: max(491px, 47.4vi); */
+    inline-size: min(491px, 47.4vi);
   }
   .why,
   .how {
