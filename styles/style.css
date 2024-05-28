@@ -35,14 +35,14 @@
 .decorated-zone::before {
   inset-block-end: var(--indent-s, 10px);
   inset-inline-start: var(--indent-s, 10px);
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--add-accent-color);
+  border-inline-start: 1px solid var(--add-accent-color);
 }
 .decorated-zone::after {
   inset-block-start: var(--indent-s, 10px);
   inset-inline-end: var(--indent-s, 10px);
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--add-accent-color);
+  border-inline-end: 1px solid var(--add-accent-color);
 }
 .header-decor {
   position: absolute;
@@ -75,7 +75,7 @@
   gap: 10px;
 }
 .header__theme-menu-item {
-  color: var(--button-color);
+  color: var(--add-accent-color);
   font: inherit;
 }
 .header__theme-menu-button {
@@ -93,7 +93,7 @@
 }
 .header__theme-menu-button_active {
   pointer-events: none;
-  outline: 1px solid var(--button-color);
+  outline: 1px solid var(--add-accent-color);
 }
 
 /* .header__theme-menu-button_type_auto {
@@ -143,7 +143,7 @@
 .how {
 } */
 
-.picture {
+.pictures {
   gap: var(--indent-s);
 }
 .section__title {
