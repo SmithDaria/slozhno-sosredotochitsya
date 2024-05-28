@@ -253,7 +253,7 @@
   }
   .header__description {
     /* inline-size: max(491px, 47.4vi); */
-    inline-size: min(491px, 47.4vi);
+    inline-size: min(491px, 47.5vi);
   }
   .why,
   .how {
