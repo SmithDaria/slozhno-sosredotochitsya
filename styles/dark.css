@@ -14,6 +14,7 @@
   --accent-color: #ff0070;
   --header-title-color: #db00ff;
   --header-title-accent-color: #ff0070;
+  --button-color: #FF0070;
   --hover-color: rgba(255, 0, 112, 0.4);
 }
 .theme_dark .header-decor {

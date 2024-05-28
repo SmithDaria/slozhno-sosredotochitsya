@@ -14,6 +14,7 @@
   --accent-color: #ff8dcb;
   --header-title-color: #ffc2e6;
   --header-title-accent-color: #ff0070;
+  --button-color: #353430;
   --hover-color: rgba(50, 49, 45, 0.4);
 }
 .theme_light .header-decor {
@@ -34,15 +35,16 @@
     --accent-color: #ff8dcb;
     --header-title-color: #ffc2e6;
     --header-title-accent-color: #ff0070;
+    --button-color: #353430;
     --hover-color: rgba(50, 49, 45, 0.4);
   }
   .header-decor {
     display: none;
   }
   .title-decor {
-    color: var(--main-text-color);
+    color: #353430;
   }
   .section__title {
-    color: var(--main-text-color);
+    color: var(--button-color);
   }
 }
